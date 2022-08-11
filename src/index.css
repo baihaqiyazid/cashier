@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.total {
+  background-color: rgba(227, 225, 255, 0.7);
+  border-radius: 10px;
+}
+
+.total-number {
+  float: right;
+
+}
+
+.button-checkout {
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.button-order {
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-heigth: 1000px) {
+  
+}
+
+.menu {
+  height: 800px;
+}
+.total-heigth {
+  height: 380px;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
